@@ -45,7 +45,9 @@ if __name__ == '__main__':
 
 Lets go through all of the bits of this example before moving on
 
-`from flask import Flask`
+```python
+from flask import Flask
+```
 
 This imports something from flask. If you are familiar with import
 statements you know that in the file `flask.py` there is something
@@ -74,7 +76,7 @@ The first line registers a view in the server. By doing this we
 essentially tell flask that when someone accesses
 www.my_cool_but_fake_website.com/hello from a browser we want the
 function `hello` to handle that access. `hello` itself is a simple
-function that returns the string `'Hello World!'`
+function that returns the string ```python 'Hello World!'```
 
 
 ```python
