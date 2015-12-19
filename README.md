@@ -76,7 +76,7 @@ The first line registers a view in the server. By doing this we
 essentially tell flask that when someone accesses
 www.my_cool_but_fake_website.com/hello from a browser we want the
 function `hello` to handle that access. `hello` itself is a simple
-function that returns the string ```python 'Hello World!'```
+function that returns the string `"Hello World!"`
 
 
 ```python
@@ -107,8 +107,8 @@ will generally mean the functions defined in `views.py` with an
 In order to run the server you should run `python views.py` on the
 commandline. Fire up your favourite browser (I use Firefox, but I
 don't judge. Just don't use Internet Explorer) and type
-"localhost:5000/hello" into the webpage bar (not the small search bar, the
-big one). localhost means "this machine" and 5000 is the port you use
+`localhost:5000/hello` into the webpage bar (not the small search bar, the
+big one). `localhost` means "this machine" and 5000 is the port you use
 to connect to the server. Flask defaults to using port 5000.
 
 You should now see the incredibly dull but extremely rewarding phrase
@@ -119,4 +119,5 @@ You should now see the incredibly dull but extremely rewarding phrase
 After doing all this your directory should look something like this:
 
 ├── venv
+
 └── views.py
