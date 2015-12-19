@@ -118,6 +118,7 @@ You should now see the incredibly dull but extremely rewarding phrase
 
 After doing all this your directory should look something like this:
 
+```
 ├── venv
-
 └── views.py
+```
